@@ -3,6 +3,9 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+  margin: 100px;
+  width: auto;
+
 }
 
 *, *:before, *:after {
@@ -22,3 +25,68 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+@page {
+  size: A4;
+}
+
+
+.body {
+  font-family: "Helvetica", sans-serif;
+}
+
+
+.title {
+  background-image: url(../images/apple-pie.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center; 
+    height:800px;
+
+    position: relative;
+    align: center;
+    background-position: 0, 0;
+
+
+
+  
+  font-size: 2em;
+  text-align: center;
+  Transform: uppercase;
+  color: white;
+
+  line-height: 12;
+  
+}
+
+
+
+.section1 {
+  font-size: 35px; /* Set the font size to 10 pixels */
+  line-height: 1.5em; /* Set the line height to 3.5 times the font size */
+  font-weight: 200;
+color: black;
+
+}
+
+
+.section2 {
+  font-size: 25px; /* Set the font size to 10 pixels */
+  line-height: 1.5em; /* Set the line height to 3.5 times the font size */
+  font-weight: 200;
+color: black
+
+}
+
+
+.container {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+    align-items: center;
+
+}
+
+.p {
+  padding-top: 50px;
+}
